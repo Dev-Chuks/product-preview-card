@@ -1,0 +1,244 @@
+:root{
+    --header-color: hsl(212, 21%, 14%);
+    --paragraph-color: hsl(228, 12%, 48%);
+    --page-color: hsl(0, 0%, 100%);
+    --Darkcyan: hsl(158, 36%, 37%);
+    --background-clr: hsl(30, 38%, 92%);
+}
+/* fh */
+
+@media (max-width:400px){
+    body{
+        background-color:var(--background-clr);
+        font-family: Montserrat;
+        font-size: 10px;
+        display:grid;
+        place-items:center;
+        width:400px;
+        height: 3rem;
+     
+    }
+
+    .mainContainer{
+        display: grid;
+        place-items: center;
+        width:250px;
+        
+        background-color: white;
+        margin:0;
+        padding:0;
+        border-bottom-left-radius:5px ;
+        border-bottom-right-radius:5px ;
+    }
+
+    img{
+        width:250px;
+        height: 150px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin:0;
+        padding:0;
+    }
+
+    .content{
+        margin:10px;
+    }
+
+    .perf{
+        text-transform: uppercase;
+        letter-spacing:5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+        color:var(--paragraph-color) ;
+    }
+
+    .h1-header{
+        font-family: Fraunces;
+        font-size: 30px;
+        font-weight:1000;
+        margin-top: 5px;
+    }
+
+    .paragraph{
+        margin-top: 10px;
+        color:var(--paragraph-color);
+        font-size: 12px;
+        font-weight: 150;
+        margin-bottom: 20px;
+
+    }
+
+    .price{
+        display:flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .price-tag{
+        color:var(--Darkcyan);
+        font-weight: 900;
+        font-size: 30px;
+        font-family: Fraunces;
+        margin-right: 10px;
+    }
+
+    .tag{
+        font-size: 10px;
+        padding-top:10px;
+        text-decoration: line-through;
+    }
+
+    button{
+        background-color: var(--Darkcyan);
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        width:100%;
+        height: 40px;
+        font-size: 13px;
+        color:var(--page-color);
+       
+    }
+
+    .fa-solid{
+        
+        color:var(--page-color);
+        font-size: 10px;
+        margin-right: 10px;
+        
+    }
+
+    button:hover{
+        cursor:pointer;
+    }
+
+    .attribution{
+        
+        margin-top: 20px;
+        color:var(--paragraph-color);
+        text-align: center;
+        width:10rem;
+
+
+    }
+
+    .attribution a{
+        text-decoration: none;
+        color:var(--paragraph-color);
+
+    }
+}
+
+@media (min-width:500px){
+    body{
+        background-color: var(--background-clr);
+        font-family: Fraunces;
+        font-size: 20px;
+        display: grid;
+        place-items: center;
+        place-content: center;
+    }
+
+    .mainContainer{
+        display: flex;
+        flex-direction: row;
+        width:36rem;
+        
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        
+    }
+
+    img{
+        width:18rem;
+        height: 24.5rem;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .content{
+        background-color: var(--page-color);
+        width:18rem;
+        height: 22rem;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding:20px;
+    }
+
+    .perf{
+        text-transform: uppercase;
+        letter-spacing:5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+        color:var(--paragraph-color) ;
+    }
+
+    .h1-header{
+        font-family: Fraunces;
+        font-size: 30px;
+        font-weight:1000;
+        margin-top: 5px;
+    }
+
+    .paragraph{
+        margin-top: 10px;
+        color:var(--paragraph-color);
+        font-size: 12px;
+        font-weight: 150;
+        margin-bottom: 20px;
+
+    }
+
+    .price{
+        display:flex;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .price-tag{
+        color:var(--Darkcyan);
+        font-weight: 900;
+        font-size: 30px;
+        font-family: Fraunces;
+        margin-right: 10px;
+    }
+
+    .tag{
+        font-size: 10px;
+        padding-top:10px;
+        text-decoration: line-through;
+    }
+
+    button{
+        background-color: var(--Darkcyan);
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        width:100%;
+        height: 40px;
+        font-size: 13px;
+        color:var(--page-color);
+       
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+    
+    .attribution{
+        
+        margin-top: 20px;
+        color:var(--paragraph-color);
+        text-align: center;
+        width:10rem;
+
+
+    }
+
+    .attribution a{
+        text-decoration: none;
+        color:var(--paragraph-color);
+
+    }
+}
